@@ -17,42 +17,65 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+---
+permalink: /
+title: ""
+excerpt: ""
+author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
+---
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+{% if site.google_scholar_stats_use_cdn %}
+{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
+{% else %}
+{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
+{% endif %}
+{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
+
+<span class='anchor' id='about-me'></span>
 
 
-# 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
-# 📝 Publications 
+# 📝 发表论文 | Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+- **Lingdu Kong**, Xiaochun Yang, Tieying Li, Bin Wang and Xiangmin Zhou. “Reverse Distribution based Video Momen
+t Retrieval for Effective Bias Elimination.” AAAI Conference on Artificial Intelligence (2025). (AAAI-25, **CCF-A**) \[[link](https://ojs.aaai.org/index.php/AAAI/article/view/33302)\] \[[code](https://github.com/NoobKLD/ReDis-VMR)\]
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+- Li, Tieying, **Lingdu Kong**, Xiaochun Yang, Bin Wang and Jiaxing Xu. “Bridging Modalities: A Survey of Cross-Moda
+l Image-Text Retrieval.” Chinese Journal of Information Fusion (2024). \[[link](https://www.icck.org/article/abs/cjif.2024.361895)\]
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+- **Lingdu Kong**, Tieying Li, Xiaochun Yang, Shengzhi Han and Bin Wang. “An Adaptive Video Clip Sampling Approach for Enhancing Query-Based Moment Retrieval in Videos.” International Conference on Database Systems for Advanced Applications (2023). (DASFAA-23, **CCF-B**) \[[link](https://doi.org/10.1007/978-3-031-30675-4_28)\]
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-</div>
-</div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
 
-# 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+# 📖 教育背景 | Educations
+- *2022.09 - 2027.06*， 东北大学 | Northeastern University, 博士 | Ph.D.
+    - 研究方向 | Research Interests: 多模态检索 | Multimodal Retrieval、视频片段检索 | Video Moment Retrieval、学习型图片压缩 | Learned Image Compression、学习型视频压缩 | Learned Video Compression、图文检索 | Text-Image Retrieval。
+    - 导师 | Supervisor：[杨晓春](http://faculty.neu.edu.cn/yangxiaochun/zh_CN/zdylm/263676/list/) | [Xiaochun Yang](http://faculty.neu.edu.cn/yangxiaochun/zh_CN/zdylm/263676/list/).
+- *2018.09 - 2022.06*， 东北大学 | Northeastern University, 本科 | Bachelor.
+    - 绩点 | GPA : 4.0246/5.0000 (8.06%).
 
-# 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
 
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+# 💻 实习经历 | Internships
+- *2025.02 - 2025.05*, [阿里云计算有限公司](https://www.aliyun.com/) | [Alibaba Cloud Computing Co. Ltd.](https://www.aliyun.com/)。
+    - 车联网图像和视频压缩算法。Image and video compression algorithms for the Internet of Vehicles.
+- *2022.03 - 2022.10*, [上海宝信软件股份有限公司](https://www.baosight.com/) | [Shanghai Baosight Software Co., Ltd.](https://www.baosight.com/)。
+    - 退火工艺过程参数监控报警。Monitoring and alarm system for annealing process parameters.
+    - CM钢性能预测。Performance prediction of CM steel.
+    - MSA系统开发。Development of the MSA (Measurement System Analysis) system.
+    - 热轧缺陷一键分析系统开发。Development of a one-click analysis system for hot rolling defects.
+
+
+# 🎖 荣誉奖项 | Honors and Awards
+
+- *2018*, 国家奖学金 | National Scholarship.
+- *2022, 2023, 2025*, 院一等奖学金 | First-Class Scholarship.
+- *2018, 2019, 2024*, 院二等奖学金 | Second-Class Scholarship.
+- *2020*, 院三等奖学金 | Third-Class Scholarship.
+
+- *2019*, 优秀学生 | Outstanding Student.
+- *2020*, 优秀学生干部 | Outstanding Student Leader.
+- *2021*, 优秀团员 | Excellent Communist Youth League Member.
