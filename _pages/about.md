@@ -43,9 +43,9 @@ l Image-Text Retrieval.” Chinese Journal of Information Fusion (2024). \[[link
 
 
 # 💻 实习经历 / Internships
-- *2025.02 - 2025.05*, [阿里云计算有限公司](https://www.aliyun.com/) / [Alibaba Cloud Computing Co. Ltd.](https://www.aliyun.com/)。
+- *2025.02 - 2025.05*, [阿里云计算有限公司](https://www.aliyun.com/) / [Alibaba Cloud Computing Co. Ltd.](https://www.aliyun.com/)
     - 车联网图像和视频压缩算法。Image and video compression algorithms for the Internet of Vehicles.
-- *2022.03 - 2022.10*, [上海宝信软件股份有限公司](https://www.baosight.com/) / [Shanghai Baosight Software Co., Ltd.](https://www.baosight.com/)。
+- *2022.03 - 2022.10*, [上海宝信软件股份有限公司](https://www.baosight.com/) / [Shanghai Baosight Software Co., Ltd.](https://www.baosight.com/)
     - 退火工艺过程参数监控报警。Monitoring and alarm system for annealing process parameters.
     - CM钢性能预测。Performance prediction of CM steel.
     - MSA系统开发。Development of the MSA (Measurement System Analysis) system.
