@@ -6,8 +6,8 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "孔令笃 | Lingdu Kong"
-description              : "简历 | Resume"
+title                    : "孔令笃 \nLingdu Kong"
+description              : "Tabula Rasa"
 repository               : "NoobKLD/noobkld.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -22,12 +22,12 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "孔令笃 | Lingdu Kong"
-  avatar           : "images/android-chrome-512x512.png"
+  avatar           : "images/android-chrome-233x233.png"
   bio              : ""
   location         : "Hangzhou, Zhejiang, China"
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
+  googlescholar    : "https://scholar.google.com/citations?user=8d5-BzQAAAAJ"
   email            : "2210707@stu.neu.edu.cn"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -37,7 +37,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : https://github.com/NoobKLD  # e.g., "github username"
+  github           : NoobKLD  # e.g., "github username"
   google_plus      :
   keybase          :
   instagram        :
