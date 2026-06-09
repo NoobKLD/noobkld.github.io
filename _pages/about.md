@@ -23,6 +23,12 @@ redirect_from:
 
 # 📝 发表论文 / Publications 
 
+- **Lingdu Kong**, Xiaochun Yang, Shuo Li, Tieying Li, Bin Wang, Chunhui Shen, Xiang Wang, Feibo Li. “Learned Lossless Image Compression with Interleaved Parallel Inference and Irregular Causal Reasoning.” ACM SIGKDD Conference on Knowledge Discovery and Data Mining (2026). (KDD-26, **CCF-A**) \[[link](https://doi.org/10.1145/3770855.3817757)\] \[[code](https://github.com/NoobKLD/ICRM)\]
+
+- Shuo Li, Xiaochun Yang, Chunhui Shen, Yutong Han, Xiang Wang, **Lingdu Kong**, Bin Wang, Feibo Li. “Kangaroo: Efficient Lossless Floating-Point Compression via Dynamic Reference Selection.”  ACM Special Interest Group on Management of Data (2026). (SIGMOD-26, CCF A) \[[link](https://dl.acm.org/doi/10.1145/3802076)\]
+
+- Tieying Li, Xiaochun Yang, Bin Wang, **Lingdu Kong**, Qingtian Bian, Jiaxing Xu, Boce Chu. “Fine-Grained Disentanglement for Alleviating Inconsistencies in Cross-Modal Hashing Retrieval.” Data Science and Engineering (2026). (DSE, SCI 1区) \[[link](https://link.springer.com/article/10.1007/s41019-025-00330-w)\]
+
 - **Lingdu Kong**, Xiaochun Yang, Tieying Li, Bin Wang and Xiangmin Zhou. “Reverse Distribution based Video Momen
 t Retrieval for Effective Bias Elimination.” AAAI Conference on Artificial Intelligence (2025). (AAAI-25, **CCF-A**) \[[link](https://ojs.aaai.org/index.php/AAAI/article/view/33302)\] \[[code](https://github.com/NoobKLD/ReDis-VMR)\]
 
@@ -55,6 +61,8 @@ l Image-Text Retrieval.” Chinese Journal of Information Fusion (2024). \[[link
 # 🎖 荣誉奖项 / Honors and Awards
 
 - *2018*, 国家奖学金 / National Scholarship.
+- *2022*, 校长奖学金 / Presidential Scholarship.
+- *2022, 2023, 2024, 2025*, 学业奖学金 (覆盖全部学费) / Academic Scholarship (Full Tuition Coverage).
 - *2022, 2023, 2025*, 院一等奖学金 / First-Class Scholarship.
 - *2018, 2019, 2024*, 院二等奖学金 / Second-Class Scholarship.
 - *2020*, 院三等奖学金 / Third-Class Scholarship.
