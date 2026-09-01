@@ -7,7 +7,8 @@
 
 # Site Settings
 title                    : "孔令笃 \nLingdu Kong"
-description              : "Tabula Rasa"
+description              : "Ph.D. candidate at Northeastern University, supervised by Prof. Xiaochun Yang. Researching multimodal retrieval, video moment retrieval, and learned image/video compression; publications at KDD, SIGMOD, AAAI, and DASFAA."
+description_zh           : "东北大学在读博士，导师杨晓春教授。研究方向为多模态检索、视频时刻检索与学习型图像/视频压缩，成果发表于 KDD、SIGMOD、AAAI、DASFAA 等会议。"
 repository               : "NoobKLD/noobkld.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,7 +24,8 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "孔令笃 | Lingdu Kong"
   avatar           : "images/android-chrome-233x233.png"
-  bio              : ""
+  bio              : "26 years old · Expected graduation: 2027"
+  bio_zh           : "26岁 · 2027年应届毕业"
   location         : "Hangzhou, Zhejiang, China"
   employer         :
   pubmed           : 

@@ -1,4 +1,30 @@
-<script src="assets/js/main.min.js"></script>
+<script src="{{ '/assets/js/main.min.js' | relative_url }}"></script>
 
 {% include analytics.html %}
 {% include fetch_google_scholar_stats.html %}
+
+<script>
+// Preserve the current section when switching language (中文 <-> English)
+$(document).on("click", "a.lang-switch", function () {
+  var anchorMap = {
+    "#-publications": "#-发表论文",
+    "#-发表论文": "#-publications",
+    "#-education": "#-教育背景",
+    "#-教育背景": "#-education",
+    "#-internships": "#-实习经历",
+    "#-实习经历": "#-internships",
+    "#-projects": "#-参与项目",
+    "#-参与项目": "#-projects",
+    "#-honors-and-awards": "#-荣誉奖项",
+    "#-荣誉奖项": "#-honors-and-awards"
+  };
+  var cur = window.location.hash;
+  var target = anchorMap[cur] || "";
+  if (target) {
+    var href = $(this).attr("href") || "";
+    if (href.indexOf(target) === -1) {
+      $(this).attr("href", href + target);
+    }
+  }
+});
+</script>

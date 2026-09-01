@@ -61,4 +61,21 @@
   }
 }
 
+.masthead .masthead__menu-item--lang {
+  a.lang-switch {
+    display: inline-block;
+    margin: 0.25rem 0 0.25rem 0.5rem;
+    padding: 0.15rem 0.85rem;
+    border: 1px solid #2d6cdf;
+    border-radius: 1rem;
+    color: #2d6cdf;
+    font-weight: 600;
+    line-height: 1.5;
+    white-space: nowrap;
 
+    &:hover {
+      background: #2d6cdf;
+      color: #fff;
+    }
+  }
+}
